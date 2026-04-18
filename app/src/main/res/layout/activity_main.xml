@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#9999ff"
+
+    android:orientation="vertical">
+
+    <TextView
+        android:text="Notes App"
+        android:textSize="26sp"
+        android:textStyle="bold"
+        android:textAlignment="center"
+        android:textColor="#333"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingBottom="15dp" />
+
+    <EditText
+        android:id="@+id/etTitle"
+        android:hint="Enter Title"
+        android:padding="10dp"
+        android:layout_marginBottom="10dp"
+        android:textColor="#000000"
+        android:background="@android:drawable/edit_text"
+        android:layout_width="match_parent"
+        android:textColorHint="#000000"
+        android:layout_height="wrap_content" />
+
+    <EditText
+        android:id="@+id/etContent"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:background="@android:drawable/edit_text"
+        android:gravity="top"
+        android:hint="Enter Content"
+        android:textColorHint="#000000"
+        android:minLines="4"
+        android:textColor="#000000"
+        android:padding="10dp" />
+
+    <Button
+        android:id="@+id/btnSave"
+        android:text="Save Note"
+        android:backgroundTint="#4CAF50"
+        android:textColor="#FFFFFF"
+        android:layout_marginBottom="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:id="@+id/btnView"
+        android:text="View Notes"
+        android:backgroundTint="#2196F3"
+        android:textColor="#FFFFFF"
+        android:layout_marginBottom="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:id="@+id/layoutNotes"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+    </ScrollView>
+
+</LinearLayout>
