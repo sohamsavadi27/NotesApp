@@ -124,7 +124,7 @@ notes
 
 Screenshots:
 <img width="283" height="505" alt="image" src="https://github.com/user-attachments/assets/ff62425c-8b72-4f76-9977-6f1096ee65ab" />
-<img width="709" height="1600" alt="image" src="https://github.com/user-attachments/assets/424cb5ac-980d-426f-9aad-7a9b45330297" />
+<img width="283" height="505" alt="image" src="https://github.com/user-attachments/assets/424cb5ac-980d-426f-9aad-7a9b45330297" />
 <img width="1301" height="636" alt="image" src="https://github.com/user-attachments/assets/46ad6713-ad3a-4f01-a4a3-37706068dd12" />
 
 ---
